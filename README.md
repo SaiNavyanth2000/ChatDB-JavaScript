@@ -71,7 +71,7 @@ schema_str;
 {"cid":{"0":0,"1":1,"2":2,"3":3,"4":4,"5":5,"6":6,"7":7,"8":8,"9":9,"10":10,"11":11,"12":12},"name":{"0":"CustomerId","1":"FirstName","2":"LastName","3":"Company","4":"Address","5":"City","6":"State","7":"Country","8":"PostalCode","9":"Phone","10":"Fax","11":"Email","12":"SupportRepId"},"type":{"0":"INTEGER","1":"NVARCHAR(40)","2":"NVARCHAR(20)","3":"NVARCHAR(80)","4":"NVARCHAR(70)","5":"NVARCHAR(40)","6":"NVARCHAR(40)","7":"NVARCHAR(40)","8":"NVARCHAR(10)","9":"NVARCHAR(24)","10":"NVARCHAR(24)","11":"NVARCHAR(60)","12":"INTEGER"},"notnull":{"0":1,"1":1,"2":1,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":1,"12":0},"dflt_value":{"0":null,"1":null,"2":null,"3":null,"4":null,"5":null,"6":null,"7":null,"8":null,"9":null,"10":null,"11":null,"12":null},"pk":{"0":1,"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0}}
 ```
 
-#Chat Agent
+# Chat Agent
 
 ```javascript
 import { OpenAI } from "@langchain/openai";
